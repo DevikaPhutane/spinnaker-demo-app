@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  devikaapp1:
+    image: devikaapp:v1
+    build: .
+    container_name: devikac11
+    ports:
+      - "1273:80"
